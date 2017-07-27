@@ -1,0 +1,21 @@
+{
+  "name": "life-timeline-image",
+  "authors": [
+    "Andrew McGill <arm5077@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "dom-to-image": "^2.5.2"
+  }
+}

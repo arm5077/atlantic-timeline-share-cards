@@ -1,0 +1,56 @@
+@import url(https://cdn.theatlantic.com/assets/static/common/fonts/roboto.css);
+
+  .card {
+    width: 952px;
+    height: 498px;
+    position: relative;
+    background: url('https://s3.amazonaws.com/the-atlantic/timeline-dynamic-test/timeline-bg.jpg');
+    background-size: cover;
+  }
+  
+  .card .title, .card .whats-yours {
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+    font-size: 52px;
+    color: #EC1B23;
+    font-weight: 800;
+    padding: 20px 0px 0px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .card .text {
+    font-family:Athelas,Garamond,Baskerville,Georgia,serif;
+    font-size:33px;
+    padding: 0px 60px 0px 30px;
+    line-height: 39px; 
+  }
+  
+  .card .whats-yours {
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+    font-weight: 800;
+  }
+  
+  .card .logo {
+    fill: white;
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    height: 42px;
+  }
+
+  .card .timeline-bug {
+    color: #EC1B23;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 22px;
+    left: 175px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
